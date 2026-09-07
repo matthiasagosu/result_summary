@@ -1,0 +1,20 @@
+@font-face {
+  font-family: hanken-grotesk;
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  font-family: hanken-grotesk, sans-serif;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
