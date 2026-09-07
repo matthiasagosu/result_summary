@@ -7,8 +7,58 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  height: 100vh;
+}
+
 section {
   font-family: hanken-grotesk, sans-serif;
+}
+
+.main-section {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  min-height: 30%;
+  max-height: 50%;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-radius: 0 0 2em 2em;
+}
+
+.result-header {
+  color: hsl(241, 100%, 89%);
+  padding: 1em 0;
+}
+
+.result-circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  padding: 1.8em 0 0.5em 0;
+  margin: 0 auto;
+}
+
+.actual-result {
+  color: hsl(0, 0%, 100%);
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.possible-result {
+  color: hsl(241, 100%, 89%);
+}
+
+.result-comment {
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.result-additional-info {
+  color: hsl(241, 100%, 89%);
+  width: 70%;
+  margin: 0 auto;
 }
 
 .attribution {
